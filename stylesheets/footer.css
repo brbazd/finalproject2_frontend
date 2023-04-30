@@ -1,0 +1,42 @@
+.footerBG {
+    background-color: #f2f2f2;
+}
+
+.footerContent {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerButtons a {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Quicksand","Arial";
+    color: #223240;
+    transition: 0.2s all;
+}
+
+.footerButtons a:hover {
+    transform: scale(1.02);
+}
+
+.footerCopyright p {
+    text-align: center;
+    font-family: "Quicksand","Arial";
+    color: #223240;
+}
+
+@media (max-width: 450px) {
+    .footerButtons {
+        flex-direction: column;
+    }
+
+    .footerButtons a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll!important;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Overpass";
+    font-weight: 600;
+    font-size: 44px;
+    color: #223240;
+}
+

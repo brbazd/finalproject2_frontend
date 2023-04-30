@@ -1,0 +1,69 @@
+#heroBackground { 
+    background-image: url('../images/scenery-about.jpg');
+    background-position: right;
+	background-size: cover;
+}
+
+.heroContent {
+	width: 70%;
+	max-height: 800px;
+	padding: 200px 0px;
+    margin: 0 auto;
+}
+
+.heroContent h2 {
+	color: #f2f2f2;
+	margin: 0 auto;
+	font-size: 92px;
+}
+
+.heroContent h4 {
+    font-family: "Overpass";
+    text-align: center;
+	color: #f2f2f2;
+	margin: 0 auto;
+	font-size: 68px;
+}
+
+.heroContent p {
+	color: #f2f2f2;
+	font-size: 22px;
+	padding: 12px 0px;
+    font-family: "Quicksand","Arial";
+    text-align: center;
+}
+
+.heroContent #heroButton {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+	margin: 0 auto;
+	background-color: #223240;
+	color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s all;
+}
+
+@media (max-width: 600px) {
+
+    .heroContent {
+        padding: 150px 0;
+    }
+
+    .heroContent p {
+        font-size: 16px;
+    }
+
+    .heroContent h2 {
+        font-size: 75px;
+    }
+
+    .heroContent h4 {
+        font-size: 60px;
+    }
+}

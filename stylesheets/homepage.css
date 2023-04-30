@@ -1,0 +1,201 @@
+#heroBackground { 
+    background-image: url('../images/scenery-hero.jpg');
+    background-position: center center;
+	background-size: cover;
+}
+
+.heroContent {
+	width: 70%;
+	max-height: 600px;
+	padding: 200px 0px;
+    margin: 0 auto;
+}
+
+.heroContent h2 {
+	color: white;
+	margin: 0 auto;
+	font-size: 92px;
+}
+
+.heroContent p {
+	color: white;
+	font-size: 22px;
+	padding: 16px 0px;
+    font-family: "Quicksand","Arial";
+    text-align: center;
+}
+
+.heroContent #heroButton {
+	width: 100%;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 20px;
+	margin: 0 auto;
+	background-color: #223240;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s all;
+}
+
+#heroButton:hover {
+    border: 1px solid #223240;
+    background-color: #f2f2f2;
+    color: #223240;
+}
+
+.heroContent #heroButton span {
+	display: inline-block;
+	margin: auto;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+    padding: 16px 0;
+}
+
+.featuredImgBackground {
+    background-image: url('../images/background-pattern.jpg');
+    background-repeat: repeat;
+}
+
+.featuredImgContent {
+    padding: 24px 10px;
+}
+
+#featuredImgInfo {
+    font-family: "Quicksand","Arial";
+    color: #223240;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#featuredImgInfo h3 {
+    font-family: "Overpass";
+    font-size: 42px;
+}
+
+#featuredImgFlex {
+    margin: 24px auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.featuredImgBox {
+    position: relative;
+    cursor: pointer;
+    max-height: 300px;
+    aspect-ratio : 1 / 1;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredImgBox img {
+    transition: 0.2s all;
+    object-fit: cover;
+}
+
+.featuredImgBox a {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    aspect-ratio : 1 / 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredImgBox img.portrait {
+    width: 100%;
+}
+
+.featuredImgBox img.landscape {
+    height: 100%;
+}
+
+.featuredImgBox:hover img {
+    transform: scale(1.1);
+}
+
+.featuredImgBox .featuredImgTitle {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredImgBox .featuredImgTitle span {
+    color: #f2f2f2;
+    font-family: "Quicksand","Arial";
+    font-size: 28px;
+    z-index: 2;
+    transition: 0.2s all;
+}
+
+.featuredImgBox:hover .featuredImgTitle span {
+    transform: scale(1.1);
+}
+
+.featuredViewMore {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.featuredViewMore a {
+    font-family: "Quicksand","Arial";
+    font-size: 30px;
+    color: #223240;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s all;
+}
+
+.featuredViewMore a:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+
+    #featuredImgFlex {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .heroContent {
+        padding: 150px 0;
+    }
+
+    .heroContent p {
+        font-size: 18px;
+    }
+
+    .featuredImgBox {
+        max-height: none;
+        max-width: 90%;
+        aspect-ratio: 1/1;
+        margin: 0 auto;
+    }
+
+}
+

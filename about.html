@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&family=Pacifico&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/nav.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/about.css">
+    <link rel="stylesheet" href="./stylesheets/footer.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/mediaquery-script.js" defer></script>
+</head>
+<body>
+    <!-- navigation -->
+
+	<div class="topBar">
+		<input type="checkbox" class="navCheckbox">
+		<div class="navCheckButton"></div>
+		<nav class="navBar container">
+			<div class="navLeft">
+                <div class="navLogo">
+                    <a href="./index.html">
+                        <span>Snapblitz</span>
+                    </a>
+                </div>
+            </div>
+            <div class="navRight">
+                <div class="navLinks">
+                    <a href="./index.html">
+						<div class="navButtons">Home</div>
+					</a>
+					<a href="./gallery.html">
+						<div class="navButtons">Gallery</div>
+					</a>
+					<a href="./about.html">
+						<div class="navButtons">About</div>
+					</a>
+                </div>
+            </div>
+            <div class="navBurgerMenuBtn"></div>
+		</nav>
+
+		<div class="navBurgerLinks hidden">
+			<a href="./index.html">
+				<div class="navBurgerButton">Home</div>
+			</a>
+			<a href="./gallery.html">
+				<div class="navBurgerButton">Gallery</div>
+			</a>
+			<a href="./about.html">
+				<div class="navBurgerButton">About</div>
+			</a>
+		</div>
+	</div>
+
+    <!-- hero -->
+	
+	<div id="heroBackground">
+		<div class="heroContainer container">
+			<div class="heroContent">
+				<h2>About us</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit hic qui corporis velit voluptas obcaecati, exercitationem ratione nisi minus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit incidunt eos accusantium, dolore sint qui pariatur quo! Nihil suscipit vitae hic, corrupti saepe doloribus tenetur porro quidem doloremque quos blanditiis nobis consequuntur quam, sint deleniti quae eum sed? Cumque est quidem ea, quisquam reprehenderit minus omnis voluptas officia aspernatur.</p>
+                <h4 id="contact">Contact</h4>
+                <p>Email: contact@snapblitz.co</p>
+                <p>123 Main Street</p>
+                <p>New York City, USA</p>
+			</div>
+		</div>
+	</div>
+
+    <!-- footer -->
+
+    <div class="footerBG">
+        <div class="footerContent container">
+            <div class="footerButtons">
+                <a href="#">Privacy Policy</a>
+                <a href="./about.html">About us</a>
+                <a href="./about.html#contact">Contact</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="footerCopyright">
+                <p>&copy; Snapblitz, 2023</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
